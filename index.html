@@ -10,60 +10,66 @@
 <style>
 
 body{
+
 margin:0;
-font-family:Arial, Helvetica, sans-serif;
-background:linear-gradient(180deg,#e9f6ef,#ffffff);
+font-family:Arial;
+background:linear-gradient(180deg,#eef5f0,#d9e6df);
 display:flex;
 justify-content:center;
 align-items:center;
 min-height:100vh;
+
 }
 
 .card{
 
 width:360px;
 background:white;
-border-radius:22px;
+border-radius:25px;
 padding:30px;
 text-align:center;
-box-shadow:0 20px 40px rgba(0,0,0,0.15);
+box-shadow:0 15px 40px rgba(0,0,0,0.15);
 
 }
 
 .logo{
 
-width:160px;
+width:180px;
 margin-bottom:15px;
 
 }
 
 .name{
 
-font-size:26px;
+font-size:28px;
 font-weight:bold;
-margin-bottom:5px;
+color:#333;
 
 }
 
 .title{
 
-color:#2ca44f;
+color:#2ea44f;
 font-weight:bold;
-margin-bottom:15px;
+margin-bottom:10px;
 
 }
 
 .company{
 
-color:#666;
 font-size:14px;
+color:#666;
 margin-bottom:25px;
 
 }
 
 .btn{
 
-display:block;
+display:flex;
+align-items:center;
+justify-content:center;
+gap:10px;
+
 text-decoration:none;
 padding:15px;
 border-radius:40px;
@@ -71,25 +77,41 @@ margin:10px 0;
 font-weight:bold;
 font-size:16px;
 
+transition:0.3s;
+
 }
 
 .green{
 
-background:#2ca44f;
+background:linear-gradient(90deg,#2ea44f,#3bd164);
 color:white;
 
 }
 
 .green:hover{
 
-background:#249043;
+transform:scale(1.03);
 
 }
 
 .gray{
 
-background:#f2f2f2;
+background:#efefef;
 color:#333;
+
+}
+
+.gray:hover{
+
+background:#e3e3e3;
+
+}
+
+.save{
+
+margin-top:15px;
+background:linear-gradient(90deg,#1e7e34,#2ea44f);
+color:white;
 
 }
 
@@ -97,7 +119,7 @@ color:#333;
 
 margin-top:20px;
 font-size:13px;
-color:#777;
+color:#888;
 
 }
 
@@ -136,14 +158,14 @@ Perfil Flex Comércio de Produtos Termoplásticos Ltda
 </a>
 
 <a class="btn gray" href="https://www.linkedin.com/company/perfil-flex">
-LinkedIn
+🔗 LinkedIn
 </a>
 
 <a class="btn gray" href="https://www.instagram.com/perfilflexperfis">
-Instagram
+📷 Instagram
 </a>
 
-<a class="btn green" href="rafael-garcia.vcf">
+<a class="btn save" href="rafael-garcia.vcf">
 ⬇️ Salvar contato
 </a>
 
