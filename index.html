@@ -1,41 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Rafael Garcia | Perfilflex</title>
 
 <style>
 
 body{
-
 margin:0;
-font-family:Arial;
-background:linear-gradient(180deg,#eef5f0,#d9e6df);
+font-family:Arial, Helvetica, sans-serif;
+background:linear-gradient(180deg,#e6ece9,#cfd8d3);
 display:flex;
 justify-content:center;
 align-items:center;
 min-height:100vh;
-
 }
 
 .card{
 
 width:360px;
-background:white;
-border-radius:25px;
-padding:30px;
+background:#ffffff;
+border-radius:28px;
+overflow:hidden;
+box-shadow:0 25px 60px rgba(0,0,0,0.25);
+
+}
+
+.header{
+
+background:linear-gradient(90deg,#1e7e34,#3bd164);
+padding:30px 20px;
 text-align:center;
-box-shadow:0 15px 40px rgba(0,0,0,0.15);
 
 }
 
 .logo{
 
 width:180px;
-margin-bottom:15px;
+}
+
+.content{
+
+padding:30px;
+text-align:center;
 
 }
 
@@ -44,6 +52,7 @@ margin-bottom:15px;
 font-size:28px;
 font-weight:bold;
 color:#333;
+margin-bottom:5px;
 
 }
 
@@ -57,8 +66,8 @@ margin-bottom:10px;
 
 .company{
 
-font-size:14px;
 color:#666;
+font-size:14px;
 margin-bottom:25px;
 
 }
@@ -70,13 +79,12 @@ align-items:center;
 justify-content:center;
 gap:10px;
 
-text-decoration:none;
 padding:15px;
-border-radius:40px;
 margin:10px 0;
+border-radius:40px;
+text-decoration:none;
 font-weight:bold;
 font-size:16px;
-
 transition:0.3s;
 
 }
@@ -90,7 +98,7 @@ color:white;
 
 .green:hover{
 
-transform:scale(1.03);
+transform:scale(1.05);
 
 }
 
@@ -103,13 +111,13 @@ color:#333;
 
 .gray:hover{
 
-background:#e3e3e3;
+background:#e4e4e4;
 
 }
 
 .save{
 
-margin-top:15px;
+margin-top:20px;
 background:linear-gradient(90deg,#1e7e34,#2ea44f);
 color:white;
 
@@ -117,21 +125,27 @@ color:white;
 
 .footer{
 
-margin-top:20px;
+text-align:center;
 font-size:13px;
 color:#888;
+padding-bottom:20px;
 
 }
 
 </style>
-
 </head>
 
 <body>
 
 <div class="card">
 
+<div class="header">
+
 <img src="logo-perfilflex.png" class="logo">
+
+</div>
+
+<div class="content">
 
 <div class="name">Rafael Garcia</div>
 
@@ -169,6 +183,8 @@ Perfil Flex Comércio de Produtos Termoplásticos Ltda
 ⬇️ Salvar contato
 </a>
 
+</div>
+
 <div class="footer">
 Perfilflex © 2026
 </div>
@@ -177,4 +193,3 @@ Perfilflex © 2026
 
 </body>
 </html>
-
