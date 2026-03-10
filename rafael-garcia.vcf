@@ -1,0 +1,19 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Rafael Garcia
+N:Garcia;Rafael;;;
+ORG:Perfil Flex Comércio de Produtos Termoplásticos Ltda
+TITLE:Diretor Comercial
+
+TEL;TYPE=CELL,VOICE:+5511913291805
+TEL;TYPE=WORK,VOICE:+5511913291805
+
+EMAIL;TYPE=WORK:rafael.garcia@perfilflex.com
+
+URL:https://perfilflex.com
+URL:https://www.linkedin.com/company/perfil-flex
+URL:https://www.instagram.com/perfilflexperfis
+
+ADR;TYPE=WORK:;;Rua Natal 106;Bairro Silveira;Santo André;SP;09195-310;Brasil
+
+END:VCARD
